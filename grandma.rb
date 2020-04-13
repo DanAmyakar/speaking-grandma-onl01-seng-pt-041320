@@ -16,19 +16,12 @@ def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   elsif phrase == phrase.upcase
-    return "NO, NOT SINCE 1938!"
-  else phrase
+    return "NO, NOT SINCE 1939!"
+  else pharse != phrase.upcase
     return "HUH?! SPEAK UP, SONNY!"
-    puts "I LOVE YOU TOO PUMPKIN!"
-  elsif phrase == phrase.upcase
-    puts "NO, NOT SINCE 1938!"
-  else phrase
-    puts "HUH?! SPEAK UP, SONNY!"
   end
 end
 
 speak_to_grandma("I LOVE YOU GRANDMA!")
-speak_to_grandma("Hi nana, how are you?")
-speak_to_grandma("Hi")
-speak_to_grandma("WHAT DID YOU EAT TODAY?")
-speak_to_grandma("WHAT?")
+speak_to_grandma("What dId you EAT today")
+speak_to_grandma("DID YOU EAT TODAY?")
